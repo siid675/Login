@@ -1,0 +1,233 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.centerdiv{
+
+width:350px;
+height:400px;
+position: absolute;
+top:50%;
+left:50%;
+background-color:black ;
+transform:translate(-50%, -50%);
+background-color:#333399;
+font-weight: bold;
+opacity: 0.8;
+
+box-shadow:0 10px 20px    ,0 2px 6px  rgba(9,2,4,10);
+border-radius:1rem;
+}
+#profilepic{
+width:120px;
+height:120px;
+border-radius:20%;
+position:relative;
+top:-50px;
+left: 30%;
+text-shadow:-3px 3px 3px #191970;
+
+}
+h2{
+text-align:center;
+color:white;
+font-size:2em;
+word-spacing:10px;
+margin-top:-40px;
+margin-bottom:50px;
+text-shadow:-3px 3px 3px #0A84C6;
+
+}
+.inputbox{
+width:calc(100%-40px);
+height:30px;
+display:block;
+margin:auto;
+color: #000;
+box-sizing:border-box;
+}
+::placeholder{
+
+color:black;
+}
+button{
+width:100px;
+height:30px;
+display:block;
+margin:auto;
+margin-top:20px ;
+
+border-radius:1rem;
+color:white;
+background-color:#000080;
+}
+button:hover{
+background: seagreen;
+}
+.forgot-section{
+color:red;
+width:200px;
+height:30px;
+display:block;
+margin-left:25%;
+margin-top:20px;
+text-transform:uppercase;
+font-size:0.8rem;
+border-radius:1rem;
+
+
+}
+
+
+/* first box-----------------------------------------  */
+
+.hero{
+    width: 100%;
+    min-height: 50vh;
+    background: #292929;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.hero h1{
+    color:#fff;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+
+.signup-box{
+    
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 800px;
+    background: #292929;
+    border-radius: 30px;
+
+
+}
+.left-box form{
+    margin-bottom: 10px;
+}
+
+
+.left-box{
+    padding: 50px;
+    background: #6b00d5;
+    flex-basis: 50%;
+    flex-grow: 1;
+    color: #fff;
+    border-radius: 30px;
+    
+
+}
+
+.right-box{
+    border-radius: 30px;
+    background: rgb(0, 53, 132);
+    padding: 50px;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+.blink{
+    animation: blinker 1.5s linear infinite;
+    color: red;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+@keyframes blinker {
+    50%{
+        opacity: 1;
+    }
+    
+}
+.inputbox::placeholder{
+    color: #000;
+}
+.input-box{
+text-align: left;
+width: 200px;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #fff;
+font-size: 12px;
+background: transparent;
+}
+::placeholder{
+color: white;
+}
+input[type=checkbox]{
+margin-top: 20px;
+
+}
+.left-box button{
+width: 80%;
+background: #fff;
+color: #000;
+padding: 5px;
+border: 0;
+outline: none;
+font-size: 16px;
+margin-top: 20px;
+align-items: center;
+text-align: center;
+margin-left: 30px;
+cursor: pointer;
+transition: background 0.6s;
+border-radius: 5px;
+text-decoration: none;
+}
+
+.left-box button:hover{
+font-weight: 500;
+background: #000;
+color: #fff;
+border-radius: 50px;
+}
+.fa{
+font-size: 20px;
+width: 20px;
+}
+.right-box a{
+text-align: center;
+border-radius: 5px;
+display: block;
+width: 50%;
+margin-top: 10px;
+
+min-width: 200px;
+color: #fff;
+font-size: 14px;
+padding: 15px 30px;
+text-decoration: none;
+
+}
+.right-box a i{
+font-size: 15px;
+margin-right: 8px;
+
+}
+.fb-link{
+background: #1778f2;
+}
+.tw-link{
+background: #1da1f2;
+}
+.g-link{
+background: #ea4335;
+}
+.insta-link{
+background: #C13584;
+}
+#alreadylogin{
+font-size: 10px;
+
+}
+
